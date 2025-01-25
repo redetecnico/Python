@@ -32,6 +32,8 @@ elif dia == 'quarta' and placa > 6:
     print ('Você não está no rodizio')
 elif dia == 'quinta' and placa == 7:
     print ('Você está no rodizio')
+elif dia == 'quinta' and placa < 7:
+    print ('Você está no rodizio')
 elif dia == 'quinta' and placa == 8:
     print ('Você está no rodizio')
 elif dia == 'quinta' and placa == 0:
@@ -43,6 +45,8 @@ elif dia == 'sexta' and placa == 9:
 elif dia == 'sexta' and placa == 0:
     print ('Você está no rodizio')
 elif dia == 'sexta' and placa <9:
+    print ('Você não está no rodizio')
+else: 
     print ('Você não está no rodizio')
 
 
